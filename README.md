@@ -21,8 +21,8 @@ wget ftp://ftp-trace.ncbi.nih.gov/giab/ftp/data/NA12878/Garvan_NA12878_HG001_HiS
 wget ftp://ftp-trace.ncbi.nih.gov/giab/ftp/data/NA12878/Garvan_NA12878_HG001_HiSeq_Exome/NIST7035_TAAGGCGA_L001_R2_001.fastq.gz
 gunzip NIST7035_TAAGGCGA_L001_R1_001.fastq.gz
 gunzip NIST7035_TAAGGCGA_L001_R2_001.fastq.gz
-head -100000 NIST7035_TAAGGCGA_L001_R1_001.fastq.gz > test_r1.fastq
-head -100000 NIST7035_TAAGGCGA_L001_R2_001.fastq.gz > test_r2.fastq
+head -100000 NIST7035_TAAGGCGA_L001_R1_001.fastq > test_r1.fastq
+head -100000 NIST7035_TAAGGCGA_L001_R2_001.fastq > test_r2.fastq
 ```
 
 ## Help
